@@ -30,6 +30,12 @@ resource "google_project_iam_member" "dataflow_developer_bindings" {
   member  = "serviceAccount:${google_service_account.service_account.email}"
 }
 
+resource "google_project_iam_member" "dataproc_admin_bindings" {
+  project = var.project_id
+  role    = "roles/dataproc.admin"
+  member  = "serviceAccount:${google_service_account.service_account.email}"
+}
+
 resource "google_project_iam_member" "dataflow_worker_bindings" {
   project = var.project_id
   role    = "roles/dataproc.worker"
