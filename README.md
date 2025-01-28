@@ -2,7 +2,7 @@ Module terraform de de transfert de données sur BigQuery
 
 :warning: **Ce repo n'est plus mis à jour**: utiliser les repos spécifique en fonctione de la bdd  
 [oracle](https://github.com/gouv-nc-data/gcp-spark-oracle-to-bigquery)  
-[Postgres](https://github.com/gouv-nc-data/gcp-spark-postgresql-to-bigquery)
+[Postgres](https://github.com/gouv-nc-data/gcp-postgresql-to-bigquery)
 
 # Ressources créées
 * TODO
