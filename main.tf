@@ -229,7 +229,7 @@ resource "google_monitoring_alert_policy" "errors" {
   conditions {
     display_name = "Error condition"
     condition_matched_log {
-      filter = "severity=ERROR AND resource.type=cloud_dataproc_cluster"
+      filter = "severity=ERROR AND resource.type=cloud_dataproc_batch"
     }
   }
 
